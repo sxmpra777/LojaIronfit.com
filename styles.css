@@ -1,0 +1,236 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;.
+    color: #333;
+}
+
+header {
+    background-color: #d32f2f;
+    color: white;
+    padding: 10px 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section {
+    padding: 40px;
+    text-align: center;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
+    text-decoration: none;
+    ;
+}
+
+.product img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+button {
+     padding: 20px 20px;
+    margin: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+button:hover {
+    background-color: green;
+    text-decoration: none;
+    
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f3f3f3;
+}
+
+/* Seção de avaliações */
+.product-reviews {
+  padding: 20px;
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-reviews h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* Estilo das avaliações */
+.review {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 15px;
+}
+
+.review:last-child {
+  border-bottom: none;
+}
+
+.review img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.review-content {
+  flex: 1;
+}
+
+.review-content h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #555;
+}
+
+.review-content .rating {
+  color: #f4b400; /* Cor das estrelas */
+  margin: 5px 0;
+}
+
+.review-content p {
+  margin: 5px 0;
+  color: #666;
+  font-size: 14px;
+}
+#sty{
+  width: 90%; /* Reduz o tamanho da imagem para 90% do tamanho original */
+  max-width: 500px; /* Define um tamanho máximo para não passar desse valor */
+  height: auto;
+  height: 200px; /* Defina a altura desejada */
+  border-radius: 15px; /* Ajuste o valor para bordas arredondadas */
+  object-fit: cover; /* Garante que a imagem se ajuste à área definida */
+
+}
+#yu {
+   padding: 20px 20px;
+    margin: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+.video-container {
+    width: 300px; /* Defina o tamanho desejado para o quadrado */
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000; /* Cor de fundo para destacar o vídeo */
+    border-radius: 8px; /* Borda arredondada opcional */
+    overflow: hidden; /* Garante que o vídeo fique dentro do quadrado */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra opcional */
+}
+
+.video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Faz o vídeo preencher o quadrado sem distorcer */
+}
+
+
+
+
+
+#ph { 
+
+  color: black; /* Texto branco */
+  padding: 10px; /* Adicione espaçamento */
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
+  
+}
+
+
+
+textarea {
+    width: 80%;
+    height: 100px;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#ui {
+  color: black;
+  background-clip: white;
+}
